@@ -21,6 +21,8 @@ WORKFLOW_mkbackup () {
 
 	SourceStage "rescue"
 
+	SourceStafe "network/save"
+
 	SourceStage "build"
 
 	SourceStage "pack"

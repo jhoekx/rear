@@ -38,6 +38,8 @@ WORKFLOW_mkrescue () {
 
 	SourceStage "rescue"
 
+	SourceStage "network/save"
+
 	SourceStage "build"
 
 	SourceStage "pack"
